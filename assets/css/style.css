@@ -1,0 +1,51 @@
+*{
+    background-color: cornflowerblue; 
+}
+/*estilo del header*/
+.container{
+    display: flex;
+    background-color: cornflowerblue;
+    justify-content: space-around;
+}
+img{
+    float: left;
+    width: 40%;
+background-color: bisque;
+}
+#reloj{
+    width:300px;
+    background-color: black;
+    color: azure;
+    font-weight: bolder;
+    font-size: 24px;
+   
+}
+/*estilo body*/
+main{
+    background-color: cornflowerblue;
+    align-items: center;
+}
+#boton{
+    background-color: black;
+    color:azure;
+    font-weight: bolder;
+    font-size: 26px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#form{
+    display: inline-flex;
+    font-size: 48px;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+/*estilos footer*/
+.pie{
+    background-color: cornflowerblue;
+    color: azure;
+    font-size: 26px;
+    font-weight: bolder;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 400px;
+}
