@@ -14,6 +14,7 @@ background-color: bisque;
 }
 #reloj{
     width:300px;
+    height: 100px;
     background-color: black;
     color: azure;
     font-weight: bolder;
@@ -33,6 +34,20 @@ main{
     margin-right: 30px;
     margin-left: 30px;
 }
+#buton{
+    height: 100px;
+    width: 180px;
+    background-color: rgb(255, 163, 43);
+    color:azure;
+    font-weight: bolder;
+    font-size: 26px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+    margin-bottom: 70px;
+}
 #form{
     display: inline-flex;
     font-size: 48px;
@@ -48,4 +63,36 @@ main{
     align-items: center;
     margin-top: 50px;
     margin-left: 400px;
+    position: fixed;
+    margin-bottom: 0%;
 }
+/*estilos h1*/
+h1 {
+    font-size: 720PX;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px; /* Para que el H1 esté inicialmente fuera de la vista */
+}
+
+h1 span {
+    margin-top: 160px;
+    margin-bottom: 240px;
+    display: inline-block;
+    transform: rotate(0deg);
+    transition: transform 1s;
+}
+
+h1 span.rotate {
+    transform: rotate(360deg);
+}
+/*estilos tabla*/
+.tabla {
+    width: 70%; /* La tabla ocupará el 70% del ancho de su contenedor */
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+}
+
+.table {
+    width: 100%; /* Asegura que la tabla ocupe el 100% del ancho de su contenedor .tabla */
+}
+
+
